@@ -1,6 +1,5 @@
 const axios = require('axios');
 const { formatDate } = require('../util/util');
-
 const url_base = `https://swapi.dev/api/`;
 
 const get = async (id)=>{
@@ -11,7 +10,6 @@ const get = async (id)=>{
     console.log(`people-repository.get(${id}) ${formatDate(startTime)} ${formatDate(endTime)} ${endTime-startTime} ms`);
     return res.data;
 };
-
 const gets = async ()=>{
     const arrPeoples =[1,2];
     const result0 = await get(arrPeoples[0]);
@@ -32,10 +30,7 @@ const getsPromise = async ()=>{
         values.forEach(value=>{
             result=result+ "\n" + value.name;
         });
-        //const result = `Res0 ${result0.name}\nRes1 ${result1.name}`;
         return result;
-    
     });
 };
-
 module.exports = {get, gets, getsPromise}

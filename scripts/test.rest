@@ -2,7 +2,7 @@
 curl http://localhost:3000/demo
 
 ### people
-curl http://localhost:3000/people/10
+curl http://localhost:3000/people/5
 
 ### peoples
 curl http://localhost:3000/people/

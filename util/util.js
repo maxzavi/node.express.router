@@ -14,6 +14,5 @@ const formatDate = (val)=>{
     miliseconds='000'+miliseconds;
     miliseconds = miliseconds.substring(miliseconds.length - 3);
     return `${year}-${month}-${day} ${hour}:${minute}:${second}:${miliseconds}`;
-
 }
 module.exports={ formatDate }

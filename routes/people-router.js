@@ -11,6 +11,7 @@ router.get("/:id", async (req,res)=>{
         res.status(error.response.status).send(error.response.data);   
     }
 });
+
 router.get("/promise/0", async (req,res)=>{
     try {
         const result = await getsPromise();
@@ -30,7 +31,4 @@ router.get("/", async (req,res)=>{
         res.status(error.response.status).send(error.response.data);   
     }
 });
-
-
-
 module.exports = router;

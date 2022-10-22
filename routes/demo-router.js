@@ -1,7 +1,6 @@
 
 const { Router } = require('express'); 
 const { getDemo } = require('../repository/demo-repository');
-
 const routerDemo = Router();
 
 routerDemo.get("/", (req,res)=>{
@@ -9,5 +8,4 @@ routerDemo.get("/", (req,res)=>{
     res.send(result);
 }
 );
-
 module.exports = routerDemo
