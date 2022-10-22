@@ -50,5 +50,8 @@ Add module axios
 npm i axios
 ```
 
-Add route
+Add route, add repository using axios and add route in index.js
+
+Add folder util and add index.js file
+
 

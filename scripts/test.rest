@@ -1,0 +1,11 @@
+### demo
+curl http://localhost:3000/demo
+
+### people
+curl http://localhost:3000/people/10
+
+### peoples
+curl http://localhost:3000/people/
+
+### peoples promise
+curl http://localhost:3000/people/promise/0

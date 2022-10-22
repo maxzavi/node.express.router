@@ -3,7 +3,7 @@ const express = require('express');
 const app=express();
 
 //midleware
-app.use(express.json());
+//app.use(express.json());
 
 
 //routes
